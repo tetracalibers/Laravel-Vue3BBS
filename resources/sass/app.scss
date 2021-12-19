@@ -1,0 +1,59 @@
+@import './settings/variables';
+@import './settings/color';
+
+@import './images/BBStextareaBack';
+
+@import './fonts/TsukushiAMaruGothic';
+@import './fonts/googleFonts';
+@import './fonts/fontawesome';
+
+//@import './plugins/setPrism';
+
+html {
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Megrim', "TsukushiAMaruGothic";
+}
+
+.page-main {
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 1.75em;
+    line-height: 1.333em;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+h4, h5, h6 {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+canvas {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+@import 'components/bbs';
+
+@import 'pages/bbsPage';
